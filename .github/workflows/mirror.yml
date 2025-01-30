@@ -11,5 +11,5 @@ jobs:
     - uses: yesolutions/mirror-action@master  # ref: https://github.com/marketplace/actions/mirror-repository
       with:
         REMOTE: 'https://code.roche.com/intonate/federated-architecture/data-processing/test-mirror.git'
-        GIT_USERNAME: 'not-important'
+        GIT_USERNAME: 'labargaa'
         GIT_PASSWORD: ${{ secrets.ROCHE_GITLAB_TOKEN }}
