@@ -13,3 +13,4 @@ jobs:
         REMOTE: 'https://code.roche.com/intonate/federated-architecture/data-processing/test-mirror.git'
         GIT_USERNAME: 'labargaa'
         GIT_PASSWORD: ${{ secrets.ROCHE_GITLAB_TOKEN }}
+        GIT_PUSH_ARGS: '--force main:refs/heads/main'
