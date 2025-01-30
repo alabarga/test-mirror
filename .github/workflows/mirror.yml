@@ -11,10 +11,10 @@ jobs:
     - uses: yesolutions/mirror-action@master  # ref: https://github.com/marketplace/actions/mirror-repository
       with:
         REMOTE: 'https://code.roche.com/intonate/federated-architecture/data-processing/test-mirror.git'
-        GIT_USERNAME: 'labargaa'
+        GIT_USERNAME: 'not important'
         GIT_PASSWORD: ${{ secrets.ROCHE_GITLAB_TOKEN }} 
         PUSH_ALL_REFS: "false"
-        DEBUG: "true"
+        DEBUG: "false"
         GIT_PUSH_ARGS: --force --prune
          # git push --tags --force --prune mirror 'refs/remotes/origin/*:refs/heads/*'
          # git push [--force main:refs/heads/main] mirror 'refs/remotes/origin/*:refs/heads/*'
